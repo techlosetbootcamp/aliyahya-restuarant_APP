@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "922035535287",
+    "firebase_url": "https://dineease-4c11a-default-rtdb.firebaseio.com",
+    "project_id": "dineease-4c11a",
+    "storage_bucket": "dineease-4c11a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922035535287:android:5364beb5bd04eb8be0bc32",
+        "android_client_info": {
+          "package_name": "com.dineease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922035535287-6ctv2bnbnena6kj6jmpghtr5ojd87blg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dineease",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "922035535287-13vkkq9obkeleieumeb0rjrrma12glc3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHORH0vDoO_1Ffm9PFckmR3umEp8Omtvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922035535287-13vkkq9obkeleieumeb0rjrrma12glc3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
