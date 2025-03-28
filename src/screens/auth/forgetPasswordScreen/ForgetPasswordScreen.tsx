@@ -1,12 +1,5 @@
 import React, {useState} from 'react';
-import {
-  StyleSheet,
-  Text,
-  View,
-  TextInput,
-  TouchableOpacity,
-  ToastAndroid,
-} from 'react-native';
+import {Text, View, TouchableOpacity, ToastAndroid} from 'react-native';
 import ScreenLayout from '../../../components/screenLoyout/ScreenLayout';
 import {useForgetPassword} from './useForgetPassword';
 import Input from '../../../components/input/Input';
@@ -15,7 +8,6 @@ import styles from './ForgetStyle';
 const ForgetPasswordScreen = () => {
   const [email, setEmail] = useState('');
   const {resetPassword, loading, error} = useForgetPassword();
-
   const isValidEmail = (email: string) => {
     return /\S+@\S+\.\S+/.test(email);
   };
@@ -56,9 +48,7 @@ const ForgetPasswordScreen = () => {
             onChangeText={setEmail}
           />
         </View>
-
         {error && <Text style={styles.errorText}>{error}</Text>}
-
         <TouchableOpacity
           style={[
             styles.forgetPasswordButton,

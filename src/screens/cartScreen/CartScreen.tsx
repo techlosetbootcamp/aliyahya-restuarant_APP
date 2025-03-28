@@ -65,7 +65,6 @@ const CartScreen = () => {
                     </TouchableOpacity>
                   </View>
 
-                  {/* Remove Item Button */}
                   <TouchableOpacity
                     style={styles.removeButton}
                     onPress={() => removeItem(item.productId)}>

@@ -8,6 +8,7 @@ import {
   ScrollView,
   ActivityIndicator,
   Alert,
+  ToastAndroid,
 } from 'react-native';
 import {Picker} from '@react-native-picker/picker';
 import ScreenLayout from '../../components/screenLoyout/ScreenLayout';
@@ -47,7 +48,7 @@ const AddProductScreen: React.FC = () => {
       }
     } catch (error) {
       console.log(error);
-      Alert.alert('Error', 'Error selecting image: ' + error);
+      ToastAndroid.show('Error selecting image: ' + error, ToastAndroid.LONG);
     }
   };
 
